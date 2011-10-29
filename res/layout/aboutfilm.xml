@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="vertical" android:layout_width="fill_parent"
+	android:layout_height="fill_parent">
+
+	<ScrollView 
+		android:layout_width="fill_parent" android:layout_height="fill_parent" android:scrollbars="vertical">
+		<LinearLayout android:id="@+id/linearLayout1"
+			android:layout_width="fill_parent" android:layout_height="fill_parent"
+			android:orientation="vertical">
+
+			<TextView android:id="@+id/filmTitle" android:layout_height="wrap_content"
+				android:layout_width="wrap_content" />
+
+			<ImageView android:id="@+id/filmCover"
+				android:layout_height="wrap_content" android:layout_width="wrap_content" />
+			<TextView android:id="@+id/filmActors" android:layout_height="wrap_content"
+				android:layout_width="wrap_content" />
+			<TextView android:id="@+id/filmDesc" android:layout_height="wrap_content"
+				android:layout_width="wrap_content" />
+			<TextView android:id="@+id/filmCover" android:layout_height="wrap_content"
+				android:layout_width="wrap_content" />
+		</LinearLayout>
+	</ScrollView>
+
+</LinearLayout>
